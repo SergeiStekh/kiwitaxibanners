@@ -1,0 +1,222 @@
+.banner {
+  position: relative;
+  width: $banner-max-width;
+  height: 232px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 4px 10px #C4C4C4;
+          box-shadow: 0px 4px 10px #C4C4C4;
+  border-radius: 8px;
+
+  &--center {
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+}
+
+.circle-medium {
+  position: absolute;
+  top: 167px;
+  right: 144px;
+  width: 15px;
+  height: 15px;
+  background: rgba(251, 178, 22, 0.6);;
+  border-radius: 50px;
+}
+
+.splash {
+  position: absolute;
+  width: 173px;
+  height: 100%;
+  top:0;
+  background-repeat: no-repeat;
+
+  &-left {
+    background-image: url('../../images/banners/splash-left.png');
+    left: -104px;
+  }
+
+  &-right {
+    background-image: url('../../images/banners/splash-right.png');
+    right: -33px;
+  }
+}
+
+.photo-description__wrapper {
+  padding: 30px 13.000977517% 0 14.173998045%;
+  width: 72.825024438%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.photo {
+  position: relative;
+  width: 106px;
+  height: auto;
+  
+  &__img {
+    position: relative;
+    width: 106px;
+    height: 117px;
+    z-index: 2;
+    margin-bottom: 8px;
+  }
+
+  &__url1 {
+    background-image: url('../../images/photos/people-1690965_1920\ 3.png');
+  }
+
+  &__url2 {
+    background-image: url('../../images/photos/people-875597_1280\ 1.png');
+  }
+
+  &__url3 {
+    background-image: url('../../images/photos/male-2634974_1280\ 1.png');
+  }
+
+  &__splash {
+    position: absolute;
+    width: 122.31px;
+    height: 174.83px;
+    background-image: url('../../images/banners/splash-photo.png');
+    top: -20px;
+    right: -49px;
+    z-index: 2;
+  }
+
+  &__name {
+    width: 200px;
+    height: 15px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 12px;
+    margin: 0 0 2px 0;
+  }
+
+  &__profession {
+    width: 200px;
+    height: 20px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 12px; 
+    margin: 0;
+  }
+
+  &__circle-big {
+    position: absolute;
+    width: 123px;
+    height: 123px;
+    top: -19px;
+    left: -39px;
+    background-color: rgba(251, 178, 22, 0.6);;
+    border-radius: 50%;
+    z-index: 1;
+  }
+}
+
+.description {
+  margin-left: 13.587487781%;
+  &__dots {
+    position: absolute;
+    width: 140px;
+    height: 49.28px;
+    top: 0;
+    left: 265px;
+    background-image: url('../../images/banners/Dots.png');
+    z-index: -5;
+  }
+
+  &__wrapper {
+    max-width: 500px;
+    min-width: 288px;
+  }
+
+
+  &__drivers {
+    position: relative;
+    margin-bottom: 26px;
+  }
+
+  &__feature {
+    position: relative;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    z-index: 2;
+  }
+
+  &__will-do {
+    position: relative;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    z-index: 2;
+    line-height: 22px;
+    
+    p {
+      margin: 0;
+    }
+  }
+
+  &__circle-medium {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    background-color: rgba(251, 178, 22, 0.6);;
+    top: 9px;
+    left: -22px;
+  }
+}
+
+.stages {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 163px;
+  height: 3px;
+  bottom: 37px;
+  left: 50%;
+  margin-left: -81.5px;
+  
+
+  &__inactive {
+    
+    width: 49px;
+    height: 100%;
+    background-image: url('../../images/banners/paginator__inactive.png');
+    cursor: pointer;
+  }
+
+  &__active {
+    
+    width: 49px;
+    height: 100%;
+    background-image: url('../../images/banners/paginator__active.png');
+  }
+}
+
+.move2 {
+  left: 49px;
+}
+
+.move3 {
+  left: calc(49px*2);
+}
+
+.driver__wrapper {
+  min-width: 230px;
+}
